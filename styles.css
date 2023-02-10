@@ -22,10 +22,12 @@ header {
 
 .menu h1 {
     margin-right: auto;
+    font-size: 24px;
 }
 
 .header-items {
     margin: 0 10px;
+    font-size: 18px;
 }
 
 .hero {
@@ -49,6 +51,11 @@ header {
 
 .intro h1 {
     margin-top: 0;
+    font-size: 36px;
+}
+
+.intro p {
+    font-size: 18px;
 }
 
 #btn-intro {
@@ -73,6 +80,11 @@ main {
     text-align: center;
 }
 
+main h2 {
+    font-size: 36px;
+    font-style: extra-bold;
+}
+
 .container-boxes {
     display: flex;
     justify-content: space-around;
@@ -91,4 +103,69 @@ main {
     width: 100px;
     height: 100px;
     border-radius: 5px;;
+}
+
+.reference {
+    background-color: #e5e7eb;
+}
+
+.reference-text {
+    font-style: light italic;
+    font-size: 36px;
+    color: #1f2937;
+    width: 60%;
+    padding: 20px 0;
+    text-align: left;
+    margin: auto;
+}
+
+#author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.CtA-container {
+    width: 60%;
+    background-color:#3882f6;
+    color: white;
+    margin: 40px auto;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-text {
+    text-align: left;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.container-text h3 {
+    margin-bottom: 0px;
+}
+
+.container-text p {
+    margin-top: 5px;
+}
+
+#CtA {
+    background-color:#3882f6;
+    min-width: 100px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid;
+    border-color:#e5e7eb;
+    border-radius: 5px;
+    color: white;
+}
+
+footer {
+    background-color:#1f2937;
+    height: 40px;
+    color:#e5e7eb;
+    text-align: center;
+    padding: 10px
 }
